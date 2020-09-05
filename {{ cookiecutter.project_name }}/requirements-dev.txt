@@ -1,0 +1,7 @@
+black
+flake8
+isort
+{% if cookiecutter.include_mypy == "yes" -%}
+mypy
+{% endif -%}
+python-language-server

@@ -1,0 +1,5 @@
+{
+    "project_name": "python-project",
+    "include_mypy": ["yes", "no"],
+    "install_immediately": ["yes", "no"]
+}
