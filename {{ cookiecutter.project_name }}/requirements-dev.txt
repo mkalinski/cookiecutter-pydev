@@ -4,4 +4,4 @@ isort
 {% if cookiecutter.include_mypy == "yes" -%}
 mypy
 {% endif -%}
-python-language-server
+python-lsp-server
