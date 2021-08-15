@@ -1,5 +1,6 @@
 {
     "project_name": "python-project",
     "include_mypy": ["yes", "no"],
+    "include_pylsp_plugins": ["yes", "no"],
     "install_immediately": ["yes", "no"]
 }

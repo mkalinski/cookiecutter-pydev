@@ -1,7 +1,14 @@
 black
 flake8
 isort
-{% if cookiecutter.include_mypy == "yes" -%}
+{%- if cookiecutter.include_mypy == "yes" %}
 mypy
-{% endif -%}
+{%- endif %}
 python-lsp-server
+{%- if cookiecutter.include_pylsp_plugins == "yes" %}
+python-lsp-black
+pyls-isort
+    {%- if cookiecutter.include_mypy == "yes" %}
+pylsp-mypy
+    {%- endif %}
+{%- endif %}
